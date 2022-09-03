@@ -1,0 +1,121 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "mount_file_id": "1G3tRNrmrPPZBM1TV4lehWGeWxI9Vxxak",
+      "authorship_tag": "ABX9TyN+20T/GxcJyWrPIDA4CGrl",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/soxhwhat/PytorchCamp/blob/main/Colab/test\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "ErpmD3-EitZs"
+      },
+      "outputs": [],
+      "source": [
+        "import torch"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "torch.empty(3, 5)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sbOw7acOjYiH",
+        "outputId": "2d0cc34d-c156-4481-e31b-6225c273c0cf"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "tensor([[8.4010e-35, 0.0000e+00, 3.3631e-44, 0.0000e+00,        nan],\n",
+              "        [6.4460e-44, 1.1578e+27, 1.1362e+30, 7.1547e+22, 4.5828e+30],\n",
+              "        [1.2121e+04, 7.1846e+22, 9.2198e-39, 7.0374e+22, 0.0000e+00]])"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 5
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "torch.zeros(5, 3, dtype=torch.long)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TMBlB9ZBkoEx",
+        "outputId": "393aa8bb-2ae3-44b7-8523-f93e1875f64f"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "tensor([[0, 0, 0],\n",
+              "        [0, 0, 0],\n",
+              "        [0, 0, 0],\n",
+              "        [0, 0, 0],\n",
+              "        [0, 0, 0]])"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 9
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "GK3NW8gYku24"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "torch.arange(12)\n",
+        "!cd drive"
+      ],
+      "metadata": {
+        "id": "lJODHfg-jZ8X"
+      },
+      "execution_count": 4,
+      "outputs": []
+    }
+  ]
+}
